@@ -1,40 +1,35 @@
 {
   "expo": {
+    "owner": "secrethajiyas-team",
     "name": "VYRA LIVE",
     "slug": "vyralive",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./icon.png",
-    "userInterfaceStyle": "dark",
-    "backgroundColor": "#0B0B14",
     "splash": {
       "image": "./icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0B0B14"
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.vyralive.app",
       "adaptiveIcon": {
         "foregroundImage": "./icon.png",
-        "backgroundColor": "#0B0B14"
+        "backgroundColor": "#000000"
       },
-      "permissions": ["CAMERA", "RECORD_AUDIO"]
+      "package": "com.secrethajiya.vyralive"
     },
-    "plugins": [
-      [
-        "react-native-google-mobile-ads",
-        {
-          "androidAppId": "ca-app-pub-5672817614193994~1234567890",
-          "iosAppId": "ca-app-pub-5672817614193994~1234567890"
-        }
-      ],
-      [
-        "expo-camera",
-        {
-          "cameraPermission": "Allow VYRA LIVE to access your camera"
-        }
-      ]
-    ],
+    "web": {
+      "favicon": "./icon.png"
+    },
     "extra": {
       "eas": {
         "projectId": "98ac86cc-97fc-4562-a4bf-54259f472552"
