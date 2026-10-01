@@ -137,3 +137,4 @@ const s = StyleSheet.create({
   dot: { position: "absolute", top: -6, right: 18, backgroundColor: PURPLE, borderRadius: 9, minWidth: 18, alignItems: "center" },
   dotT: { color: "#fff", fontSize: 10, fontWeight: "800" },
 });
+   
