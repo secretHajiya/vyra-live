@@ -1,24 +1,44 @@
 {
   "expo": {
     "name": "VYRA LIVE",
-    "slug": "vyra-live",
+    "slug": "vyralive",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#0B0B14",
-    "splash": { "image": "./assets/icon.png", "resizeMode": "contain", "backgroundColor": "#0B0B14" },
+    "splash": {
+      "image": "./icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0B14"
+    },
     "android": {
       "package": "com.vyralive.app",
-      "adaptiveIcon": { "foregroundImage": "./assets/icon.png", "backgroundColor": "#0B0B14" },
-      "permissions": ["CAMERA", "RECORD_AUDIO", "MODIFY_AUDIO_SETTINGS", "INTERNET"]
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#0B0B14"
+      },
+      "permissions": ["CAMERA", "RECORD_AUDIO"]
     },
     "plugins": [
-      ["react-native-google-mobile-ads", {
-        "androidAppId": "ca-app-pub-5672887722239131~2601560211",
-        "iosAppId": "ca-app-pub-5672887722239131~2601560211"
-      }],
-      ["expo-camera", { "cameraPermission": "VYRA LIVE needs your camera to go live.", "microphonePermission": "VYRA LIVE needs your microphone to go live." }]
-    ]
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-5672817614193994~1234567890",
+          "iosAppId": "ca-app-pub-5672817614193994~1234567890"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow VYRA LIVE to access your camera"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "98ac86cc-97fc-4562-a4bf-54259f472552"
+      }
+    }
   }
 }
