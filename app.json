@@ -1,48 +1,35 @@
 {
   "expo": {
-    "owner": "secrethajiyas-team",
-    "name": "VYRA LIVE",
-    "slug": "vyralive",
+    "name": "Vyra AI Studio",
+    "slug": "vyra-ai-studio",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./icon.png",
+    "icon": "./assets/icon.png",
     "splash": {
-      "image": "./icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000000"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
+      "backgroundColor": "#080610"
     },
     "android": {
+      "package": "com.vyra.aistudio",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./icon.png",
-        "backgroundColor": "#000000"
-      },
-      "package": "com.secrethajiya.vyralive"
-    },
-    "web": {
-      "favicon": "./icon.png"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#080610"
+      }
     },
     "plugins": [
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
-          "iosAppId": "ca-app-pub-3940256099942544~1458002511"
+          "androidAppId": "ca-app-pub-995853981287899~1555539022"
         }
       ]
     ],
     "extra": {
       "eas": {
-        "projectId": "98ac86cc-97fc-4562-a4bf-54259f472552"
+        "projectId": "vyra-ai-studio"
       }
     }
   }
-      }
+}
